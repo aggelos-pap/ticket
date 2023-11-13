@@ -1,7 +1,14 @@
 import Image from "next/image";
+import TicketCard from "./(components)/TicketCard";
 
 const Dashboard = () => {
-  return <div>dashb3oard2</div>;
+  return (
+    <div>
+      <TicketCard />
+      <TicketCard />
+      <TicketCard />
+    </div>
+  );
 };
 
 export default Dashboard;
