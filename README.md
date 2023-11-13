@@ -18,6 +18,6 @@ Next open [http://localhost:3000](http://localhost:3000) with your browser to se
 
 ## Libraries used
 
--Next.js for the frontend creation and a simple api.
--MongoDB for the database system.
+-Next.js for the frontend creation and a simple api.\
+-MongoDB for the database system.\
 -Tailwind CSS for styling.
