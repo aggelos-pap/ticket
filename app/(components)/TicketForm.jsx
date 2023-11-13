@@ -27,6 +27,8 @@ const TicketForm = () => {
     if (!res.ok) {
       throw new Error("Failed to create Ticket.");
     }
+    //Update later
+    window.alert("Ticket created successfully!");
 
     router.refresh();
     router.push("/");
@@ -153,7 +155,7 @@ const TicketForm = () => {
 
         {/* Status Control */}
         <label>Status</label>
-        <select name="status" value={formData.Status} onchange={handleChange}>
+        <select name="status" value={formData.Status} onChange={handleChange}>
           <option value="not started">Not started</option>
           <option value="started">Started</option>
           <option value="done">Done</option>
